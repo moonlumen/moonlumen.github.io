@@ -1,22 +1,30 @@
+<!-- This code is from 2008 -->
 <html>
 	<head>
-	
 		<style type="text/css">
-		<!--
-			body {
-				background-color:#676570;
-                                color:#ECECEC;
-				font-family: Verdana;
+			html, body {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				overflow:hidden;
 			}
-		-->
+			img#bg {
+				position:fixed;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+			}
+			#content {
+				position:relative;
+				z-index:1;
+				margin:0 auto;
+			}
 		</style>
-	
 	</head>
+
 	<body>
-		<h1>Moon's Custom Maps</h1>
-		
-		<p>Welcome to this sexy MOTD</p>
-		<p>You found this by stalking my github profile or joining the server before this is even finished somehow</p>
-	
+		<img src="blackboard.png" id="bg" />
+		<div id="content"><img src="motd.png" /></div>
 	</body>
 </html>
